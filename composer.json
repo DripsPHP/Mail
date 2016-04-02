@@ -1,0 +1,15 @@
+{
+    "name": "drips/mail",
+    "description": "PHP-Mailsystem basierend auf PhpMailer",
+    "keywords": ["mail"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+        "phpmailer/phpmailer": "~5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drips\\Mail\\": "src"
+        }
+    }
+}
