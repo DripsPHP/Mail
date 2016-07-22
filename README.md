@@ -18,7 +18,6 @@ Mailer basierend auf [PHPMailer](https://github.com/PHPMailer/PHPMailer).
 + `mail_smtp_password` - Passwort
 + `mail_smtp_secure`- Verschlüsselung
 + `mail_smtp_port` - Port
-
 + `mail_from_email` - (optional) Emailadresse von der die Emails standardmäßig abgesendet werden sollen
 + `mail_from_name` - (optional) Absendername, der angezeigt wird
 + `mail_cc` - (optional) Kopie der Email an mehrere Empfänger
