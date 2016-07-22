@@ -1,17 +1,18 @@
 {
-    "name": "drips/mail",
-    "description": "PHP-Mailsystem basierend auf PhpMailer",
-    "keywords": ["mail"],
-    "license": "MIT",
-    "require": {
-        "php": ">=5.4",
-        "phpmailer/phpmailer": "~5.2",
-        "drips/config": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-            "Drips\\Mail\\": "src"
-        }
-    },
-    "minimum-stability": "dev"
+  "name": "drips/mail",
+  "description": "PHP-Mailsystem basierend auf PhpMailer",
+  "keywords": [
+    "mail"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4",
+    "phpmailer/phpmailer": "~5.2",
+    "drips/config": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Drips\\Mail\\": "src"
+    }
+  }
 }

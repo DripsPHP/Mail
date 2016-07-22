@@ -2,8 +2,8 @@
 
 namespace tests;
 
-use PHPUnit_Framework_TestCase;
 use Drips\Mail\Mail;
+use PHPUnit_Framework_TestCase;
 
 class MailTest extends PHPUnit_Framework_TestCase
 {
